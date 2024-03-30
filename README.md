@@ -68,4 +68,4 @@ command = ["/usr/local/bin/check-journal.sh", "-s", "/var/tmp", "-p", "hoge|moge
 
 Apache License Version 2.0
 
-[LICENSE]
+[LICENSE](LICENSE)
