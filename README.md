@@ -62,7 +62,7 @@ command = ["/usr/local/bin/check-journal.sh", "-s", "/var/tmp", "-p", "hoge|moge
 
 ## 現在の制限
 - PoCステージが終わったらいずれにせよ全然別の実装になります。
-- 利用している`journalctl`コマンドの`--cursor-file=FILE`オプションは、systemd version 242で追加されたもののため、これよりも古いバージョンがインストールされている場合は動作しません。広く使われそうな対象がこれに相当してしまう場合は、`--cursor-file`相当も実装する必要がありそうです。
+- 利用している`journalctl`コマンドの`--cursor-file=FILE`オプションは、systemd version 242で追加されたもののため、これよりも古いバージョンがインストールされている場合は動作しません。ただし、Amazon Linux 2023、Oracle Linux 9、Ubuntu 22、Debian 12ではいずれもこのオプションが存在するので、対応は不要と思われます。
 
 ## ライセンス
 
